@@ -1,0 +1,311 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage[colorlinks=true, linkcolor=blue!50!black, citecolor=blue!50!black, urlcolor=blue!50!black]{hyperref}
+
+\usepackage[backend=biber, style=authoryear, sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+
+\titleformat{\section}{\Large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{1.4em}{0.4em}
+
+\newcommand{\charname}[1]{\textbf{#1}}
+
+\title{\textbf{A Reader's Companion to \emph{1929}}\\[0.3em]
+\large Andrew Ross Sorkin's \emph{1929: Inside the Greatest Crash in Wall Street History \\ and How It Shattered a Nation}}
+\author{Prepared by Claude (Sonnet 5), Anthropic \\ \small for \href{mailto:icos.atropa@gmail.com}{a listener of the audiobook narration}}
+\date{August 24, 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\small
+\textit{Note on this document.} This companion is a listening aid, not a substitute for
+the book. It was assembled entirely from publicly available secondary sources ---
+publisher copy, book reviews, press interviews, and reader summaries --- rather than
+from the text of \emph{1929} itself, and every claim below is cited to one of those
+public sources in the References section. Because the goal is to help a listener keep
+names straight, character and institution sketches describe who people \emph{were} and
+how they connect to one another; they deliberately omit how each person's individual
+story concludes. The chapter-by-chapter section is a conceptual reconstruction of the
+book's chronological arc, not a transcription of its actual chapter titles: reviewers
+note that Sorkin structures the book as a sequence of date-headed chapters (beginning
+February 1, 1929) grouped into two parts, rather than as topically titled chapters, and
+that precise chapter-by-chapter titles are not published online
+\autocite{wikipedia1929book,supersummary1929}. This document is not authorized,
+reviewed, or endorsed by the author or publisher.
+\end{minipage}
+\end{center}
+
+\vspace{1em}
+
+\section*{Overview}
+
+\emph{1929} (Viking, 2025) is Andrew Ross Sorkin's narrative history of the Wall
+Street crash of 1929, its long buildup, and its aftermath through the New Deal-era
+banking reforms \autocite{sorkin2025book,prh1929,goodreads1929}. Sorkin, best known for his account
+of the 2008 financial crisis in \emph{Too Big to Fail}, spent roughly eight years
+researching the book, drawing on archival material including previously unpublished
+Federal Reserve Bank of New York board records \autocite{axios1929,realclearmarkets1929}.
+Rather than telling the crash as a story of charts and abstractions, the book is built
+around a cast of interlocking real people --- bankers, speculators, regulators, and
+politicians --- whose personal ambitions and rivalries shaped the boom, the crash, and
+the decade of reform that followed \autocite{airmail1929,csmonitor1929}. Reviewers
+describe the book as unfolding in two parts: the first tracing the speculative boom
+from roughly February through October 1929, and the second following the crash's
+political and regulatory aftermath \autocite{cato1929,dailyeconomy1929}.
+
+\section{Cast of Characters}
+
+The figures below are the major, named individuals the book follows closely across
+its narrative, drawn from publisher and reviewer descriptions of the book's
+principal cast \autocite{supersummary1929,booksthatslay1929,littlerbooks1929}. Wilson
+and Coolidge, who appear only briefly as outgoing political context, are omitted at
+the reader's request.
+
+\subsection{Charles E. Mitchell}
+Chairman of National City Bank (a predecessor of Citibank) and known as ``Sunshine
+Charlie'' for his relentless public optimism, Mitchell pioneered the mass marketing
+of stocks to ordinary Americans and used his bank's resources to keep credit flowing
+to the market even when the Federal Reserve wanted to restrain it
+\autocite{airmail1929,supersummary1929}. His running conflict with the Federal
+Reserve's leadership is one of the book's central threads connecting Wall Street to
+Washington.
+
+\subsection{Thomas W. Lamont}
+The senior partner at J.P.\ Morgan \& Co.\ and the most influential private banker of
+the era, Lamont acted as an informal statesman for Wall Street, coordinating with
+fellow bankers and government officials to manage the market's mood
+\autocite{supersummary1929,dailyeconomy1929}. He is a connective figure between the
+House of Morgan, the New York Stock Exchange, and the Hoover administration.
+
+\subsection{J.P.\ Morgan Jr.}
+Head of the House of Morgan and heir to his father's banking dynasty, Morgan
+represents the old-guard establishment of American finance, whose firm's private
+influence over markets and government rivaled that of the Federal Reserve itself
+\autocite{supersummary1929}. He works closely with Lamont throughout the book.
+
+\subsection{Richard Whitney}
+A vice president (and later president) of the New York Stock Exchange, Whitney
+became the public face of Wall Street's efforts to project confidence on the trading
+floor during the market's most volatile days, acting on behalf of the leading
+bankers' consortium \autocite{supersummary1929,csmonitor1929}. He works in close
+coordination with Lamont and the Morgan-led banking group.
+
+\subsection{Jesse Livermore}
+A legendary independent stock trader famous for making and losing several fortunes,
+Livermore operated outside the banking establishment, trading on his own instincts
+about market psychology rather than on inside information or institutional loyalty
+\autocite{airmail1929,supersummary1929}. He functions in the narrative as a
+skeptical outsider watching the same boom that bankers like Mitchell were fueling.
+
+\subsection{William C. Durant}
+The founder of General Motors, Durant reinvented himself in the late 1920s as one of
+Wall Street's most aggressive stock market operators, organizing pools of investors
+to move prices in favored stocks \autocite{supersummary1929}. His path connects
+General Motors, the speculative pool culture of the exchange, and fellow GM figure
+John J.\ Raskob.
+
+\subsection{John J.\ Raskob}
+A General Motors and DuPont executive who also chaired the Democratic National
+Committee, Raskob was a leading public evangelist for stock ownership, urging
+ordinary Americans that ``everybody ought to be rich'' through the market
+\autocite{supersummary1929,littlerbooks1929}. He links the corporate world of
+General Motors to both Wall Street speculation and national politics.
+
+\subsection{Michael J.\ Meehan}
+A New York Stock Exchange specialist and stock promoter known for running trading
+pools in popular speculative stocks such as Radio Corporation of America (RCA),
+Meehan exemplifies the era's loosely regulated market-manipulation practices
+\autocite{supersummary1929}. His activities intersect with the same pool culture
+that drew in Durant and Raskob.
+
+\subsection{Herbert Hoover}
+Inaugurated president in March 1929, Hoover inherited a market boom he privately
+distrusted and then had to respond to its collapse, caught between his instincts for
+voluntary, business-led solutions and mounting pressure for federal action
+\autocite{supersummary1929,csmonitor1929}. His administration's dealings with bankers
+like Lamont and Mitchell are a recurring axis of the book.
+
+\subsection{Andrew W.\ Mellon}
+A wealthy financier and industrialist serving as Treasury Secretary, Mellon
+represents the fusion of private fortune and public economic policy that
+characterized the era, shaping the government's hands-off approach to the boom
+\autocite{supersummary1929}. He works alongside Hoover through the crash's early
+aftermath.
+
+\subsection{George L.\ Harrison}
+Governor of the Federal Reserve Bank of New York, Harrison inherited the internal
+Federal Reserve debates over whether and how to curb speculative lending, and dealt
+directly with bankers such as Mitchell whose actions the Fed was trying to restrain
+\autocite{supersummary1929}. He is the book's throughline for the Federal Reserve's
+institutional perspective.
+
+\subsection{Franklin D.\ Roosevelt}
+Governor of New York during the crash and elected president in 1932, Roosevelt
+becomes central to the book's second half as the political figure whose
+administration presided over the era's regulatory response to Wall Street's excesses
+\autocite{supersummary1929,libraryjournal1929}. He connects to Senator Carter Glass
+and investigator Ferdinand Pecora as reform-era figures.
+
+\subsection{Carter Glass}
+A U.S.\ Senator and former Treasury Secretary, Glass was a leading architect of
+banking reform legislation in the crash's aftermath, working to redraw the boundary
+between commercial and investment banking \autocite{libraryjournal1929}. His
+legislative efforts connect Washington's political response to the practices of
+bankers like Mitchell and Lamont profiled earlier in the book.
+
+\subsection{Ferdinand Pecora}
+Chief counsel to the U.S.\ Senate Committee on Banking and Currency, Pecora led the
+high-profile investigative hearings into Wall Street practices that followed the
+crash, questioning many of the book's banking figures directly about their conduct
+during the boom \autocite{libraryjournal1929,dailyeconomy1929}. His hearings serve
+as the narrative bridge between the crash and the reforms that followed it.
+
+\section{Cast of Institutions}
+
+\subsection{National City Bank}
+A forerunner of Citibank and, under Charles Mitchell's leadership, one of the most
+aggressive commercial banks in extending credit for stock speculation and marketing
+securities directly to retail customers \autocite{airmail1929,supersummary1929}. Its
+practices put it repeatedly at odds with the Federal Reserve.
+
+\subsection{J.P.\ Morgan \& Co.}
+The most powerful private bank on Wall Street, led by Thomas Lamont and J.P.\ Morgan
+Jr., whose partners acted as informal coordinators of the banking community's
+response to market stress \autocite{supersummary1929}. The firm's influence
+connects private finance directly to the New York Stock Exchange and to Washington.
+
+\subsection{New York Stock Exchange (NYSE)}
+The physical and symbolic center of American securities trading, where figures like
+Richard Whitney and Michael Meehan operated, and whose self-regulated trading floor
+practices are a recurring subject of the book \autocite{supersummary1929}. It is the
+stage on which the boom's speculative excesses and the crash itself play out.
+
+\subsection{The Federal Reserve System}
+Comprising the Board in Washington and regional banks such as the Federal Reserve
+Bank of New York (led by George Harrison), the Fed grappled throughout the boom with
+whether and how to restrain speculative lending by banks like National City
+\autocite{supersummary1929}. Its internal debates connect monetary policy to the
+conduct of individual bankers profiled elsewhere in the book.
+
+\subsection{General Motors}
+The automaker at the center of two major characters' fortunes --- founder William C.\
+Durant and executive John J.\ Raskob --- General Motors' stock was itself one of the
+era's most actively speculated-upon issues, tying industrial America directly to the
+market's mania \autocite{supersummary1929}.
+
+\subsection{The White House and U.S.\ Treasury}
+The executive branch under Herbert Hoover and Treasury Secretary Andrew Mellon, and
+later under Franklin Roosevelt, whose evolving posture toward Wall Street --- from
+voluntary cooperation to active regulation --- structures the political half of the
+book's narrative \autocite{supersummary1929,csmonitor1929}.
+
+\subsection{U.S.\ Senate Committee on Banking and Currency}
+The congressional committee whose investigative hearings, led by chief counsel
+Ferdinand Pecora and shaped legislatively by Senator Carter Glass, became the public
+forum in which Wall Street's boom-era practices were examined and which produced the
+era's landmark banking reforms \autocite{libraryjournal1929,dailyeconomy1929}.
+
+\section{Chapter-by-Chapter Narrative Outline}
+
+\emph{As noted above, Sorkin structures the book as a long sequence of date-headed
+chapters within two parts rather than as titled, numbered chapters, and a complete
+public listing of those individual date-chapters was not found in the sources
+consulted \autocite{wikipedia1929book}. The ``chapters'' below are instead a
+conceptual reconstruction of the book's narrative movements, grouped in the
+chronological order reviewers describe, to help a listener anticipate where the
+story is heading without revealing how any individual character's story resolves.}
+
+\begin{enumerate}[leftmargin=1.6em, itemsep=0.6em]
+
+\item \textbf{The Boom in Full Swing (early 1929).} The book opens amid a
+roaring bull market. \charname{Charles Mitchell} and \charname{National City Bank}
+keep credit flowing to speculators even as the \charname{Federal Reserve} grows
+uneasy, setting up the central tension between Wall Street's appetite and
+Washington's caution \autocite{airmail1929,supersummary1929}.
+
+\item \textbf{A New President Takes Office (March 1929).} \charname{Herbert Hoover}
+is inaugurated into a market he privately mistrusts, while \charname{Andrew Mellon}
+continues to shape a Treasury posture of minimal interference in the boom
+\autocite{supersummary1929,csmonitor1929}.
+
+\item \textbf{The Machinery of Speculation (spring--summer 1929).} Pool operators
+such as \charname{William C.\ Durant}, \charname{John J.\ Raskob}, and
+\charname{Michael J.\ Meehan} drive up favored stocks on the \charname{New York
+Stock Exchange}, while \charname{Thomas Lamont} and the House of \charname{J.P.\
+Morgan \& Co.} watch the market's temperature from above \autocite{supersummary1929}.
+
+\item \textbf{Cracks Beneath the Surface (late summer 1929).} As the market reaches
+its historic peak, independent skeptics like \charname{Jesse Livermore} begin to
+sense the boom has outrun reality, even as public enthusiasm remains near its height
+\autocite{airmail1929,mises1929}.
+
+\item \textbf{The Tremors Begin (early--mid October 1929).} Confidence starts to
+waver on the exchange floor; \charname{Richard Whitney} and the leading bankers
+grow increasingly attentive to signs of instability \autocite{supersummary1929}.
+
+\item \textbf{Black Thursday (October 24, 1929).} A wave of panic selling hits the
+\charname{New York Stock Exchange}; \charname{Thomas Lamont}, \charname{J.P.\
+Morgan Jr.}, and their fellow bankers organize a coordinated show of confidence on
+the floor, with \charname{Richard Whitney} acting as their public face
+\autocite{supersummary1929,csmonitor1929}.
+
+\item \textbf{A Fragile Reprieve (October 25--28, 1929).} A brief stabilization
+follows the bankers' intervention, and the country debates whether the worst has
+passed \autocite{supersummary1929}.
+
+\item \textbf{Black Tuesday and Its Immediate Wake (October 29, 1929 onward).} Selling
+overwhelms the market again, and the scale of the losses becomes clear across Wall
+Street, testing every figure introduced so far, from \charname{Charles Mitchell} to
+\charname{Herbert Hoover} \autocite{supersummary1929,csmonitor1929}.
+
+\item \textbf{Washington Tries to Steady the Country (late 1929--1930).}
+\charname{Herbert Hoover} convenes business leaders and urges confidence, while the
+\charname{Federal Reserve System} and figures like \charname{George Harrison}
+weigh how aggressively to respond \autocite{supersummary1929}.
+
+\item \textbf{The Economy Contracts (1930--1931).} As economic conditions worsen and
+bank failures spread through the financial system, the limits of voluntary,
+business-led solutions become increasingly apparent \autocite{supersummary1929}.
+
+\item \textbf{A Nation in Crisis, A New Administration (1932--1933).}
+\charname{Franklin D.\ Roosevelt} rises to national prominence and is elected
+president amid a deepening banking crisis, setting the stage for a fundamentally
+different relationship between Washington and Wall Street \autocite{supersummary1929,
+libraryjournal1929}.
+
+\item \textbf{The Reckoning (1933--1934).} \charname{Ferdinand Pecora} leads the
+\charname{U.S.\ Senate Committee on Banking and Currency}'s hearings, calling
+\charname{Charles Mitchell}, \charname{Richard Whitney}, and other figures from
+earlier in the book to account publicly for their conduct during the boom
+\autocite{libraryjournal1929,dailyeconomy1929}.
+
+\item \textbf{Rebuilding the Rules (1933--1934).} \charname{Carter Glass} and his
+congressional allies, working with the \charname{Roosevelt} administration,
+translate the hearings' revelations into the era's landmark banking and securities
+reforms, reshaping the relationship between \charname{National City Bank},
+\charname{J.P.\ Morgan \& Co.}, and the institutions that regulate them
+\autocite{libraryjournal1929}.
+
+\item \textbf{Looking Back.} The book closes by drawing a line from the 1929 crash
+and its reforms toward the financial crises of later decades, reflecting on what the
+era's central figures and institutions ultimately teach about market manias and
+their aftermath \autocite{axios1929,dailyeconomy1929}.
+
+\end{enumerate}
+
+\printbibliography[title={References}]
+
+\end{document}
