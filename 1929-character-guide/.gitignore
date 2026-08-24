@@ -8,3 +8,14 @@
 *.toc
 *.fls
 *.fdb_latexmk
+
+# tex4ht/htlatex intermediate files from the EPUB build step (see build.sh)
+*.html
+*.css
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.tmp
+*.xref
+*.dvi
