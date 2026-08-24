@@ -78,6 +78,7 @@ else
   # only, and repackage: mimetype first and stored (uncompressed), per the
   # EPUB OCF spec.
   EPUBTMP="$(mktemp -d)"
+  trap 'rm -rf "$EPUBTMP"' EXIT
   unzip -q "$SRC.epub" -d "$EPUBTMP"
   # nav.xhtml is serialized as proper XHTML, where an empty element is
   # self-closing (<span id="..." />) rather than open/close, unlike the loose
@@ -93,7 +94,7 @@ else
 fi
 
 echo "== Cleaning intermediate files =="
-rm -f "$SRC".{aux,log,bbl,bcf,blg,out,run.xml,4ct,4tc,idv,lg,tmp,xref,dvi}
+rm -f "$SRC".{aux,log,bbl,bcf,blg,out,run.xml,toc,4ct,4tc,idv,lg,tmp,xref,dvi}
 rm -f "$SRC.html" "$SRC.css"
 
 echo "Done: $SRC.pdf and $SRC.epub"
